@@ -1,0 +1,99 @@
+body{
+    /* background-color: greenyellow; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+h1{
+    color: blue;
+    padding: 20px 20px 20px 20px;
+}
+
+.title{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.title h1{
+    font-size: 64px;
+    color: orange;
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+}
+
+nav{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+    padding: 5px;
+    border-radius: 15px;
+}
+nav a{
+    color: black;
+    padding-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: hotpink;
+}
+
+.banner{
+    background-color: greenyellow;
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.banner p{
+    color: purple;
+    font-size: 112px;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.home-text{
+    font-size: 24px;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+.traject-text{
+    font-size: 24px;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+.teachers-text{
+    font-size: 24px;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+.about-text{
+    font-size: 24px;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+.opinion-text{
+    font-size: 24px;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
