@@ -12,7 +12,7 @@ h1{
 
 .title{
     margin: auto;
-    width: 50%;
+    /* width: 50%; */
     padding: 10px;
     text-align: center;
 }
@@ -64,7 +64,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .home-text{
@@ -81,9 +82,24 @@ footer {
 }
 .teachers-text{
     font-size: 24px;
-    max-width: 1200px;
-    text-align: center;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 70%;
+}
+.teacher{
+    background-color: cadetblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    margin: 15px;
+}
+.teacher img{
+    height: 180px;
+    width: 180px;
+    padding: 5px;
 }
 .about-text{
     font-size: 24px;
@@ -96,4 +112,33 @@ footer {
     max-width: 1200px;
     text-align: center;
     margin: auto;
+}
+
+.firstyear{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.firstyear h1{
+    font-size: 64px;
+    color: blue;
+}
+.firstyear p{
+    font-size: 36px;
+}
+.vakken{
+    font-size: 24px;
+}
+.firstyear-image img{
+    height: 535.8px;
+    width: 944.8px;
+}
+.roster-image img{
+    height: 658.62px;
+    width: 944.8px;
+}
+.vak p{
+    font-size: 24px;
+    border: 1px black solid;
 }
